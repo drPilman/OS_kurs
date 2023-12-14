@@ -1,0 +1,4 @@
+#!/bin/bash
+
+docker build -t drpilman/gpp_builder:alpine -f builder.Dockerfile .
+docker build -t drpilman/gpp_executor:alpine -f executor.Dockerfile .
